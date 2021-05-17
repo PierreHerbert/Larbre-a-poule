@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;300&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="./script.js" type="text/JavaScript"></script>
+<link rel="stylesheet" href="./style-produit.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <title>CONTACT</title>
+    
+</head>
+<body>
+    
+    <!-- header  -->
+    <header>
+        <div di="header-img">
+            <img src="./img/lg_logo-arbre-a-poule_ws1008908909-fi4961630x196-fi6327842x168.png" alt="LOGO L'ARBRE A POULE">
+        </div>
+        <div id="nav-burger" onclick="burger('ul-responsive','quit-burger','menu-responsive')">
+         <i class="fas fa-bars"></i>
+     </div>
+        <nav id="header-nav">
+            <ul>
+                <li><a href="./index.html">ACCUEIL</a></li>
+                <li><a href="./produit.html">NOS PRODUITS</a></li>
+                <li><a href="./gites.html">NOS GITES</a></li>
+                <li><a href="./activites.html">NOS ACTIVITES</a></li>
+                <li><a href="./action.html">NOS ACTIONS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fin header  -->
+
+    <section id="section-container">
+      <!-- menu responsive -->
+      <div id="menu-responsive">
+          <ul id="ul-responsive">
+              <li><a href="./index.html">ACCUEIL</a></li>
+              <li><a href="./produit.html">NOS PRODUITS</a></li>
+              <li><a href="./gites.html">NOS GITES</a></li>
+              <li><a href="./activites.html">NOS ACTIVITES</a></li>
+              <li><a href="./action.html">NOS ACTIONS</a></li>
+              <li><a href="./contact.html">CONTACT</a></li>
+
+              <div id="quit-burger" onclick="burgerNone('ul-responsive','quit-burger','nav-burger')">
+                  <i class="fas fa-times"></i>
+              </div>
+          </ul>
+      </div>
+    <!-- section contact  -->
+<section id="section-contact">
+    <form name="myForm" >
+        <table class="form-style">
+           <tr>
+              <td>
+                 <label>
+                    Votre nom <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <input type="text" name="name" class="long"/>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label>
+                    Votre adresse e-mail <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <input type="email" name="email" class="long"/>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label>
+                    Message <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <textarea name="message" class="long field-textarea"></textarea>
+              </td>
+           </tr>
+           <tr>
+              <td></td>
+              <td>
+                 <input type="submit" value="Envoyer" class="bouton">      
+              </td>
+           </tr>
+        </table>
+     </form>
+    </section>
+    <!-- fin section contact  -->
+
+</section>
+
+    <!-- section carte  -->
+    <section id="section-carte">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.494023494249!2d2.481739615218548!3d49.285984078458426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e64a70306a7e41%3A0x8836f21c7d918134!2s28%20Rue%20Mortefontaine%2C%2060870%20Villers-Saint-Paul!5e0!3m2!1sfr!2sfr!4v1620998624398!5m2!1sfr!2sfr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <!-- fin section carte  -->
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <h3>CONTACT</h3>
+            <p>contact@larbreapoule.com</p>
+                <p>28 rue Mortefontaine</p> 
+               <p>Villiers-saint-paul,FRANCE</p>
+               <p>06 15 29 43 14</p> 
+                
+        </div>
+        <div id="reseaux">
+            <div><img src="./img/ferme d'avenir 2017-fi11444076x109.png" alt=" logo ferme d'avenir" width="80px"
+                    height="80px"></div>
+            <div><i id="fb" class="fab fa-facebook-f fa-3x"></i></div>
+            <div><img src="./img/logo bienvenue à la ferme-fi11444082x107.jpg" alt="logo bienvenue a la ferme"
+                    width="80px" height="80px"></div>
+        </div>
+    </footer>
+    <!-- fin footer  -->
+</body>
+</html>

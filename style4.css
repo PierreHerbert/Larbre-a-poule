@@ -1,0 +1,61 @@
+body #section-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #section-action #div-millieu {
+  background-color: #a7a7a7;
+  width: 100%;
+}
+
+body #section-action #div-millieu h3 {
+  color: white;
+  font-family: "Open Sans";
+}
+
+@media screen and (max-width: 375px) {
+  body #section-action #div-millieu h3 {
+    margin-top: 0;
+  }
+}
+
+body #section-action .div-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 600px;
+}
+
+@media screen and (max-width: 375px) {
+  body #section-action .div-img {
+    height: auto;
+  }
+}
+
+body #section-action .div-img h3 {
+  color: #535050;
+  font-family: "Open Sans";
+}
+
+@media screen and (max-width: 375px) {
+  body #section-action .div-img img {
+    width: 300px;
+    height: 190px;
+  }
+}
+/*# sourceMappingURL=style4.css.map */

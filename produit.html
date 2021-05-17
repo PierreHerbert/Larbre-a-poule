@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:wght@200;300&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="./script.js" type="text/JavaScript"></script>
+    <link rel="stylesheet" href="./style-produit.css">
+    <link rel="stylesheet" href="./style1.css ">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <title>NOS PRODUITS</title>
+</head>
+
+<body>
+
+    <!-- header  -->
+    <header>
+        <div di="header-img">
+            <img src="./img/lg_logo-arbre-a-poule_ws1008908909-fi4961630x196-fi6327842x168.png"
+                alt="LOGO L'ARBRE A POULE">
+        </div>
+        <div id="nav-burger" onclick="burger('ul-responsive','quit-burger','menu-responsive')">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav id="header-nav">
+            <ul>
+                <li><a href="./index.html">ACCUEIL</a></li>
+                <li><a href="./produit.html">NOS PRODUITS</a></li>
+                <li><a href="./gites.html">NOS GITES</a></li>
+                <li><a href="./activites.html">NOS ACTIVITES</a></li>
+                <li><a href="./action.html">NOS ACTIONS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fin header  -->
+
+    <section id="section-container">
+        <!-- menu responsive -->
+        <div id="menu-responsive">
+            <ul id="ul-responsive">
+                <li><a href="./index.html">ACCUEIL</a></li>
+                <li><a href="./produit.html">NOS PRODUITS</a></li>
+                <li><a href="./gites.html">NOS GITES</a></li>
+                <li><a href="./activites.html">NOS ACTIVITES</a></li>
+                <li><a href="./action.html">NOS ACTIONS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+
+                <div id="quit-burger" onclick="burgerNone('ul-responsive','quit-burger','nav-burger')">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+        </div>
+        <!-- fin menu responsive  -->
+        <section id="section-produits">
+
+            <!-- premiere ligne de produits  -->
+            <div id="produits1">
+                <div class="div-img">
+                    <a href="./produit1.html"><img src="./img/5.jpg" alt="panier de legumes"></a>
+                    <p>panier de legumes de saison</p>
+                    <p class="prix">15 €</p>
+                </div>
+                <div class="div-img">
+                    <img src="./img/1.jpg" alt="confitures de tomates" height="267px" width="400px">
+                    <p>confitures de tomates </p>
+                    <p class="prix">5 €</p>
+
+                </div>
+            </div>
+            <!-- fin premiere ligne de produits -->
+
+
+            <!-- seconde ligne de produits  -->
+            <div id="produits2">
+                <div class="div-img">
+                    <img src="./img/2.jpg" alt="miel">
+                    <p>miel de fleur de primtemps</p>
+                    <p class="prix">8.50 €</p>
+                </div>
+                <div class="div-img" id="oeuf-caille">
+                    <img src="./img/3.jpg" alt="oeuf de caille">
+                    <p>Oeuf de caille</p>
+                    <p class="prix">4 €</p>
+                </div>
+            </div>
+            <!-- fin seconde ligne de produits  -->
+
+
+            <!-- troisieme ligne de produits -->
+            <div id="produits3">
+                <div class="div-img">
+                    <img src="./img/4.jpg" alt="sirop de menthe 250ml">
+                    <p>sirop de menthe 250ml</p>
+                    <p class="prix">4 €</p>
+                </div>
+                <div class="div-img">
+                    <a href="./index.html"><img src="./img/4.jpg" alt="sirop de menthe 500ml"></a>
+                    <p>sirop de menthe 500ml</p>
+                    <p class="prix">7.50 €</p>
+                </div>
+            </div>
+            <!-- fin troisieme ligne de produit  -->
+
+        </section>
+    </section>
+    <section id="section-horaire">
+        <h3>Vente a la ferme :</h3>
+        <p>les vendredis de 16h00 - 19h00</p>
+        <p>les samedis de 10h00 -12h00 et de 17h00 - 19h00</p>
+        <p class="texte1">(Pas de visite de la ferme pendant l'ouverture de la vente)</p>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <h3>CONTACT</h3>
+            <p>contact@larbreapoule.com</p>
+            <p>28 rue Mortefontaine</p>
+            <p>Villiers-saint-paul,FRANCE</p>
+            <p>06 15 29 43 14</p>
+
+        </div>
+        <div id="reseaux">
+            <div><img src="./img/ferme d'avenir 2017-fi11444076x109.png" alt=" logo ferme d'avenir" width="80px"
+                    height="80px"></div>
+            <div><i id="fb" class="fab fa-facebook-f fa-3x"></i></div>
+            <div><img src="./img/logo bienvenue à la ferme-fi11444082x107.jpg" alt="logo bienvenue a la ferme"
+                    width="80px" height="80px"></div>
+        </div>
+    </footer>
+    <!-- fin footer  -->
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+body{
+    #section-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        td{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            font-family: "Exo";
+            font-size: 20px;
+        }
+        span{
+            color: red;
+        }
+        .bouton{
+            background-color: #669b04;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            font-family: "Open Sans";
+            font-size: 20px;
+        }
+    }
+    #section-carte{
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        @media screen and (max-width:375px) {
+            height: 200px;
+        }
+        iframe{
+            @media screen and (max-width:375px) {
+                height: 200px;
+            }
+            
+        }
+
+    }
+}

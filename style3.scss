@@ -1,0 +1,72 @@
+body{
+    #section-activite{
+        color: #535050;
+        
+        h1{
+            text-align: center;
+            font-family: "Open Sans";
+            font-size: 30px;
+            @media screen and (max-width:375px) {
+                font-size: 20px;
+                margin-top: 0;
+            }
+        }
+        #container{
+            display: flex;
+            justify-content: space-around;
+            @media screen and (max-width:375px) {
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+            }
+            .activite{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 30%;
+                @media screen and (max-width:375px) {
+                    width: 80%;
+                }
+                
+                h3{
+                    font-family: "Open Sans";
+                    font-size: 25px;
+                    @media screen and (max-width:375px) {
+                        font-size: 15px;
+                    }
+                }
+                p{
+                    font-family: "Exo";
+                    font-size: 20px;
+                    @media screen and (max-width:375px) {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+    #telechargement{
+        color: #535050;
+        font-family: "Open Sans";
+        width: 50%;
+        margin: auto;
+        h3{
+            font-size: 25px;
+            @media screen and (max-width:375px) {
+                font-size: 15px;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #535050;
+            font-family: "Exo";
+            padding-left: 15px;
+            font-size: 20px;
+            @media screen and (max-width:375px) {
+                font-size: 10px;
+            }
+
+        }
+    }
+}

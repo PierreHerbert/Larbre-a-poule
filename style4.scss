@@ -1,0 +1,37 @@
+body{
+    #section-action{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       #div-millieu{
+           background-color: #a7a7a7;
+           width: 100%;
+           h3{
+               color: white;
+               font-family: "Open Sans";
+               @media screen and (max-width:375px) {
+                margin-top: 0;
+             }
+           }
+       }
+       .div-img{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           height: 600px;
+           @media screen and (max-width:375px) {
+            height: auto;
+        }
+           h3{
+               color: #535050;
+               font-family: "Open Sans";
+           }
+           img{
+            @media screen and (max-width:375px) {
+                width: 300px;
+                height: 190px;
+            }
+           }
+       }
+    }
+}

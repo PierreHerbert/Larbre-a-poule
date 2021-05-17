@@ -1,0 +1,111 @@
+body #section-activite {
+  color: #535050;
+}
+
+body #section-activite h1 {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  body #section-activite h1 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+}
+
+body #section-activite #container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 375px) {
+  body #section-activite #container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+body #section-activite #container .activite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+@media screen and (max-width: 375px) {
+  body #section-activite #container .activite {
+    width: 80%;
+  }
+}
+
+body #section-activite #container .activite h3 {
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+@media screen and (max-width: 375px) {
+  body #section-activite #container .activite h3 {
+    font-size: 15px;
+  }
+}
+
+body #section-activite #container .activite p {
+  font-family: "Exo";
+  font-size: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  body #section-activite #container .activite p {
+    font-size: 10px;
+  }
+}
+
+body #telechargement {
+  color: #535050;
+  font-family: "Open Sans";
+  width: 50%;
+  margin: auto;
+}
+
+body #telechargement h3 {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 375px) {
+  body #telechargement h3 {
+    font-size: 15px;
+  }
+}
+
+body #telechargement a {
+  text-decoration: none;
+  color: #535050;
+  font-family: "Exo";
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  body #telechargement a {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style3.css.map */
