@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #669b04;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header #nav-burger {
+  display: none;
+  color: white;
+}
+
+@media screen and (max-width: 375px) {
+  body header #nav-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+body header #header-nav {
+  width: 100%;
+}
+
+body header #header-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header #header-nav ul li {
+  list-style: none;
+}
+
+body header #header-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 375px) {
+  body header #header-nav ul {
+    display: none;
+  }
+}
+
+body #section-container #menu-responsive {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 375px;
+  background-color: #669b04;
+}
+
+body #section-container #menu-responsive #ul-responsive {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  font-family: "Open Sans";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #section-container #menu-responsive #ul-responsive a {
+  text-decoration: none;
+  color: white;
+}
+
+body #section-container #quit-burger {
+  display: none;
+  color: black;
+}
+
+@media screen and (max-width: 375px) {
+  body #section-container #quit-burger #quit-burger {
+    color: white;
+    width: 30%;
+  }
+}
+
+body #section-container #section1 {
+  background: url("./img/field.jpg") no-repeat center/100% 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #section-container #section1 h1 {
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  body #section-container #section1 h1 {
+    text-align: center;
+  }
+}
+
+body #section2 {
+  width: 100%;
+  background-color: #a7a7a7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+body #section2 h2 {
+  font-family: "Open Sans";
+  font-size: 30px;
+}
+
+body #section2 #container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 375px) {
+  body #section2 #container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body #section2 #container #div-gauche {
+  width: 30%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  body #section2 #container #div-gauche {
+    width: 80%;
+  }
+}
+
+body #section2 #container #div-gauche h3 {
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+body #section2 #container #div-gauche p {
+  font-family: "Exo";
+  font-size: 20px;
+}
+
+body #section2 #container #div-droite {
+  width: 30%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  body #section2 #container #div-droite {
+    width: 80%;
+  }
+}
+
+body #section2 #container #div-droite h3 {
+  font-family: "Open Sans";
+  font-size: 25px;
+}
+
+body #section2 #container #div-droite p {
+  font-family: "Exo";
+  font-size: 20px;
+}
+
+body footer {
+  background-color: #47605f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 375px) {
+  body footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body footer div {
+    width: 100%;
+  }
+}
+
+body footer h3 {
+  font-family: "Open Sans";
+}
+
+body footer p {
+  font-family: "Exo";
+}
+
+body footer #fb {
+  padding: 10px;
+  border: solid 1px white;
+}
+
+body footer #reseaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60%;
+}
+
+@media screen and (max-width: 375px) {
+  body footer #reseaux {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
